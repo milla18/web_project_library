@@ -165,8 +165,6 @@
   color: #838383;
 }
 
-/*começou aqui o css do projeto 3.2*/
-
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -251,31 +249,26 @@
 }
 
 .person_name_feynman {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
   top: -30px;
   right: 319px;
 }
 
 .person_name_burbidge {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
   bottom: 16px;
   right: 216px;
 }
 
 .person_name_mitchell {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
   top: 79px;
   left: 159px;
 }

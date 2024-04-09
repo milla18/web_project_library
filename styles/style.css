@@ -319,14 +319,14 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  column-gap: 40px;
 
   /* Adicione estilos */
 }
 
 .step {
   /* Adicione estilos */
-  flex-basis: 200px;
-  margin: 40px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -350,6 +350,7 @@
   background-color: #1f1f1f;
   padding: 60px 80px;
   color: #ffffff;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -374,7 +375,7 @@
 .footer__column-heading {
   margin-bottom: 20px;
 }
-z .footer__list {
+.footer__list {
   /* O código abaixo remove os estilos do navegador padrão para listas */
   list-style-type: none;
   padding: 0;
@@ -390,14 +391,14 @@ z .footer__list {
   text-decoration: none;
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
-  margin-right: 100px;
+  margin-top: 100px;
 }
